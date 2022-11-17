@@ -7,27 +7,7 @@
     overflow-y: auto;
 }
 
-/*modification du style du scrollbar , marche uniquement sur Firefox*/
-*{ 
-    scrollbar-width: thin;
-    scrollbar-color: var(--main-color-pinchard) transparent;
-}
 
-/*marche sur Chrome, EDgge et Safari*/
-*::-webkit-scrollbar{ 
-    width: 12px;
-}
-*::-webkit-scrollbar-track{ 
-    background: transparent;
-}
-*::-webkit-scrollbar-track{ 
-    background: transparent;
-}
-*::-webkit-scrollbar-thumb{ 
-    background-color: var(--main-color-pinchard);
-    border-radius: 20px;
-    border: 3px solid transparent;
-}
 
 /*** ABOUT-TITLE ***/
 .about-title h2{
