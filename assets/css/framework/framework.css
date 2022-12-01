@@ -245,6 +245,12 @@
   .gap-25 {
     gap: 25px;
   }
+  .gap-30 {
+    gap: 35px;
+  }
+  .gap-35 {
+    gap: 35px;
+  }
 
   /** FLEX WRAP **/
 

@@ -33,11 +33,11 @@ body{
     width: 25%; 
     height: 100vh;
 }
-.aside-left-content{
+  .aside-left-content{
     background-color: var(--main-color-white);
     /*margin-right: 15px; */
       height: 100vh;
-      width: 95%;
+      width: 95%;  
 }
 .user-picture{
    padding: 20px 0 10px 0;
@@ -110,7 +110,7 @@ ul.menu-lists li:hover{
 /************** SECTIONS  ****************/
 .content section{
     height: 100vh;
-    width: 100%;
+    width: 100%; 
     overflow-y: auto;
 }
 #resume{
@@ -122,6 +122,9 @@ ul.menu-lists li:hover{
 #contact{
     background-color: yellow;
 }
+ .content section{
+     width: 100%;
+ }
 
 
 /********* VUE TABLETTE & MOBILE ***************/
@@ -135,9 +138,18 @@ ul.menu-lists li:hover{
     #header-top{
         display: flex;
         border-bottom: 1px solid var(--main-color-pinchard);
+      /*  width: 100vw; */
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 888;
     }
     #aside-left{
-        display: none;
+      /*  display: none;*/
+        z-index: 0;
+        width: 75%;
+        top: 50px;
+        left: 0;
     }
     .header-username{
         font-size: 1.2rem;
@@ -149,6 +161,11 @@ ul.menu-lists li:hover{
         color: var(--main-color-black);
         padding-right: 10px;
     }
+    .content section{
+        width: 100vw;
+        padding-top: 50px;
+    }
+    
     
 }
 
